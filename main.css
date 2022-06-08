@@ -1,0 +1,162 @@
+body {
+    background-image: url("blue-1273089_1280.webp");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.form-div {
+    background-color: #fff;
+    margin: 50px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px 1px #1da1f2;
+}
+
+label {
+    display: block;
+    font-size: 12px;
+}
+
+input {
+    border: none;
+    padding-left: 10px;
+    color: rgb(212, 212, 212);
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 250px;
+}
+
+a {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+    text-decoration: none;
+    color: grey;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    width: 100%;
+    background-image: linear-gradient(to right, #6ecadf, #8ba8ef, #a689ea, #e341f6);
+    height: 30px;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.input-form {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 10px 0;
+    border-bottom: 2px solid rgb(205, 205, 205);
+    margin-bottom: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+p {
+    text-align: center;
+    font-size: 12px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+}
+
+h2 {
+    text-align: center;
+}
+
+i {
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.tweet,
+.face,
+.google {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.tweet {
+    background-color: #1da1f2;
+}
+
+.tweet:hover {
+    background-color: #0599f5;
+}
+
+.face {
+    background-color: #3b5998;
+}
+
+.face:hover,
+.tweet:hover,
+.google:hover {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.face:hover {
+    background-color: #123c96;
+}
+
+.google {
+    background-color: #db4437;
+}
+
+.google:hover {
+    background-color: #d41200;
+
+}
+
+.sign-up {
+    text-align: center;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    transition: all 0.3s ease-in;
+    background-color: #1da1f2;
+    color: #fff;
+}
+
+input[type="submit"]:hover {
+    transition: all 0.5s ease-in;
+    background-image: linear-gradient(to left, #6ecadf, #8ba8ef, #a689ea, #e341f6);
+    color: #cccccc;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.pp {
+    margin-top: 100px;
+}
+
+.p {
+    margin-top: 50px;
+}
